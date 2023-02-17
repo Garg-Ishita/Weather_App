@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+
 import "./TempAndDetails.css";
 import { UilTemperatureHalf } from "@iconscout/react-unicons";
 import { UilWind } from "@iconscout/react-unicons";
@@ -46,7 +46,7 @@ function TempAndDetails({ weather: { details, icon, temp, temp_min, temp_max, su
           alt="image"
           className="mainPic"
         /> */}
-        <img src={iconUrlFromCode(icon)} alt="image" className="mainPic" />
+        <img src={iconUrlFromCode(icon)} alt="icon" className="mainPic" />
 
         <p className="temp">{`${(temp - 273.15).toFixed(1)}°`}</p>
         <div className="side">

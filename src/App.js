@@ -1,6 +1,6 @@
 import './App.css';
 import TopButtons from './components/TopButtons'
-import UilReact from '@iconscout/react-unicons/icons/uil-react';
+
 import Inputs from './components/Inputs.js';
 import Time from './components/Time'
 import TempAndDetails from './components/TempAndDetails'
