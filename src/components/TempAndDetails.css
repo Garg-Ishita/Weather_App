@@ -1,0 +1,79 @@
+.outerBot{
+    background-image: linear-gradient(to right, blue , rgb(0, 221, 175));
+    margin: auto;
+    /* max-width: fit-content; */
+    width:701.578px;
+    padding: 5px 32px 5px 32px ;
+    box-shadow: 100px 100px 80px rgba(0, 0, 0, 0.12);
+    /* display: flex;
+    flex-direction: row; */
+    border-radius: 5px;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    color:white;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 3px 0px;
+}
+
+.mainPic{
+    width:60px;
+    height: 60px;
+    margin-left: 60px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.temp{
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    margin-left:40px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sideText{
+    display:flex;
+    
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    font-size: 1vw;
+}
+
+.smallData{
+    margin-left: 3px;
+    font-size: 1.2vw;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    color:white;
+    font-size:medium;
+    margin:3px;
+    margin-top:5px;
+}

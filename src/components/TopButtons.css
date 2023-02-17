@@ -1,0 +1,30 @@
+.cityWalaButton{
+    border:none;
+    background-color: transparent;
+    font-size: 1.5vw;
+    font-weight: 300;
+    padding: 20px;
+    color:aliceblue;
+    
+}
+ .ButtonBar{
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 40px;
+
+} 
+
+.inputNav{
+   
+        background-image: linear-gradient(to right, blue , rgb(0, 221, 175));
+        margin: auto;
+        /* max-width: fit-content; */
+        width:701.578px;
+        padding: 5px 32px 5px 32px ;
+        /* box-shadow: 100px 100px 80px rgba(0, 0, 0, 0.12); */
+        /* display: flex;
+        flex-direction: row; */
+        border-radius: 5px;
+    
+}
